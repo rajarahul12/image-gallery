@@ -22,7 +22,7 @@ function UploadForm() {
   return (
     <form>
       <label>
-        <input type="file" onChange={handleChange} />
+        <input type="file" onChange={handleChange} accept="image/*" />
         <span>+</span>
       </label>
       <div className="output">
